@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
+ * A utility class that populates the database, not to be included in deployment
+ * Could be used for testing in the future
+ *
  * Created by mikaelnaas on 09/11/16.
  */
 public class Populator {

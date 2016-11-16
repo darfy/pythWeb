@@ -7,6 +7,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
 /**
+ * This is called when the servlet is started due to it being a listener (declared in web.xml)
+ * It will populate the database using main/util/Populator
+ *
  * Created by mikaelnaas on 15/11/16.
  */
 public class Startup implements ServletContextListener {

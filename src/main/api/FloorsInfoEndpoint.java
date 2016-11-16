@@ -13,7 +13,10 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/*
+ * The endpoint for /floorsInfo that handles all gets and responds with a JSON containing
+ * a List<FloorInfo> for ALL floors in database
+ */
 @Path("/floorsInfo")
 public class FloorsInfoEndpoint {
     FloorInfoService floorInfoService = new FloorInfoServiceImpl();

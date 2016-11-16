@@ -18,6 +18,9 @@ public class FloorInfoServiceImpl implements FloorInfoService {
     private BuildingProvider buildingProvider = new BuildingProviderImpl();
     private FloorProvider floorProvider = new FloorProviderImpl();
 
+    /*
+     * Service method that will return a List of FloorInfo objects
+     */
     public List<FloorInfo> getFloorsInfo() {
         List<Building> buildings = buildingProvider.getBuildings();
         List<FloorInfo> floorInfos = new ArrayList<FloorInfo>();

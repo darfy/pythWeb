@@ -3,6 +3,8 @@ package main.util;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 /**
+ * Class that handles distribution of the sessionFactory used to handle sessions.
+ *
  * Created by mikaelnaas on 15/11/16.
  */
 public class HibernateUtil {

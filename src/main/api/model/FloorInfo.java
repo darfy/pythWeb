@@ -1,8 +1,13 @@
 package main.api.model;
 
 /**
+ * api model class that makes it easier to display the requested data with
+ * Floorname, BuildingName and Area
+ *
  * Created by mikaelnaas on 15/11/16.
  */
+
+
 public class FloorInfo {
 
 
