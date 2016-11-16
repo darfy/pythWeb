@@ -1,0 +1,10 @@
+
+out/artifacts/pyth/WEB-INF/classes/main/dao/
+out/artifacts/pyth/WEB-INF/classes/main/daoImplementation/
+out/artifacts/pyth/WEB-INF/classes/main/drf/
+out/artifacts/pyth/WEB-INF/classes/main/dtos/
+out/artifacts/pyth/WEB-INF/classes/main/helpers/
+out/artifacts/pyth/WEB-INF/classes/main/servlets/
+src/test/
+target/generated-sources/
+target/surefire/
